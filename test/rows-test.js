@@ -21,7 +21,7 @@ var NUMBERS = _.times(MAX_NUM);
 var LETTERS = ['C', 'D', 'E', 'A', 'B']
 
 describe('Row-based feeds', function() {
-  this.timeout(5000);
+  this.timeout(10000);
 
   before(function(done) {
     async.series({

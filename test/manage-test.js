@@ -16,7 +16,7 @@ var creds = require('./service-account-creds.json');
 var doc = docs['private'];
 
 describe('Managing doc info and sheets', function() {
-  this.timeout(5000);
+  this.timeout(10000);
 
   before(function(done) {
     doc.useServiceAccountAuth(creds, done);
